@@ -1,0 +1,15 @@
+[package]
+name = "pinned_slab"
+version = "0.1.0"
+authors = ["Phoebe Bell <minaphoebebell@gmail.com>"]
+edition = "2018"
+description = "Slab-allocator with pinned elements"
+homepage = "https://github.com/foeb/pinned_slab"
+repository = "https://github.com/foeb/pinned_slab"
+readme = "README.md"
+keywords = ["slab", "allocator"]
+categories = ["memory-management", "data-structures"]
+
+[dependencies]
+arrayvec = "0.4"
+
