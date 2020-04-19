@@ -4,8 +4,9 @@ Slab-allocator with pinned elements.
 
 Much of this code is directly taken from
 [`slab`](https://github.com/carllerche/slab) and should have roughly the same
-interface. If you see a function missing that you'd like implemented, pull
-requests are welcome!
+interface. If you see a function missing that you'd like implemented or a
+feature flag to configure `CHUNK_SIZE` through const generics, pull requests
+are welcome!
 
 ## Usage
 
@@ -19,5 +20,5 @@ This project is licensed under the [MIT license](LICENSE).
 ### Contribution
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in `slab` by you, shall be licensed as MIT, without any additional
+for inclusion in `pinned_slab` by you, shall be licensed as MIT, without any additional
 terms or conditions.
