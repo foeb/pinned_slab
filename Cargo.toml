@@ -2,6 +2,7 @@
 name = "pinned_slab"
 version = "0.1.0"
 authors = ["Phoebe Bell <minaphoebebell@gmail.com>"]
+license = "MIT"
 edition = "2018"
 description = "Slab-allocator with pinned elements"
 homepage = "https://github.com/foeb/pinned_slab"
