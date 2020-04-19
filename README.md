@@ -1,5 +1,7 @@
 # Slab
 
+[![crates.io](https://img.shields.io/badge/crates.io-v0.1.0-orange)](https://crates.io/crates/pinned_slab)
+
 Slab-allocator with pinned elements.
 
 Much of this code is directly taken from
